@@ -55,3 +55,18 @@ Console.WriteLine(HoraFormatada);
 
 string HoraFormat =dataAtual.ToString("HH:mm:ss");
 Console.WriteLine(HoraFormat);
+
+//  Metodo ToString -  Interpolacao de String 
+double preco = 29.99;
+Console.WriteLine($"O preço é: {preco.ToString("C2")}");
+
+double preco1 = 29.99;
+Console.WriteLine($"O preço é: {preco1.ToString("C3")}");
+
+//  Formatacao de acordo com a localizacao (using System.Globalization )
+decimal valor = 1234.56m;
+string valorUS = valor.ToString("C", new System.Globalization.CultureInfo("en-US"));
+Console.WriteLine(valorUS);
+
+string valorBR = valor.ToString("C", new System.Globalization.CultureInfo("pt-BR"));
+Console.WriteLine(valorBR);

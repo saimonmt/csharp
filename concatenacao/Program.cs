@@ -24,3 +24,34 @@ Console.WriteLine("A variavel valorTexto e do tipo: "+ valorTexto.GetType());
 int num2 = int.Parse(valorTexto);
 Console.WriteLine(num2);
 Console.WriteLine("A variavel numeroParse é do Tipo: " + num2.GetType());
+
+//  Cast/Casting (Conversao de um numero do tipo string para int, float ou double usando convert )
+string valorEmTexto = "100";
+Console.WriteLine("A variavel valorTexto é do tipo:" + valorEmTexto.GetType());
+
+int numeroConvertido = Convert.ToInt32(valorEmTexto);
+Console.WriteLine(numeroConvertido);
+Console.WriteLine("A variavel numeroConvertido é do tipo:" + numeroConvertido.GetType());
+
+//  Metodo ToString
+int num3 = 123 ;
+Console.WriteLine(num3.GetType());
+
+string numeroComoString = num3.ToString();
+Console.WriteLine(numeroComoString.GetType());
+
+//  Personalizacao de formatacao para data e hora
+DateTime dataAtual = DateTime.Now;
+Console.WriteLine(dataAtual);
+
+string dataFormatada =dataAtual.ToString("dd/MM/yyyy");
+Console.WriteLine(dataFormatada);
+
+string dataHoraFormatada =dataAtual.ToString("dd/MM/yyyy HH:mm");
+Console.WriteLine(dataHoraFormatada);
+
+string HoraFormatada =dataAtual.ToString("HH:mm");
+Console.WriteLine(HoraFormatada);
+
+string HoraFormat =dataAtual.ToString("HH:mm:ss");
+Console.WriteLine(HoraFormat);

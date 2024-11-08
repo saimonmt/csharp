@@ -58,3 +58,43 @@ else
 {
     Console.WriteLine($"A letra {letra} nao e uma vogal");
 }
+
+
+string dia = "Sábado";
+
+switch (dia)
+{
+    case "Sábado":
+        Console.WriteLine("Sábadoooo galera!");
+        break;
+    case "Domingo":
+        Console.WriteLine("Domingao, hoje é dia de assitir a Temperatura Maxima !");
+        break;
+    default:
+        Console.WriteLine("Hoje é dia de semana, para de preguica, levanta e vai trabalhar!");
+        break;
+}
+
+
+Console.WriteLine("Digite uma vogal:");
+string? letra2 = Console.ReadLine();
+string letraMinuscula = letra2.ToLower();
+//string letraMaisucula = letra2.ToUpper();
+switch (letraMinuscula)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine($"A letra '{letraMinuscula}' é uma vogal.");
+        break;
+    default:
+        Console.WriteLine($"A letra '{letraMinuscula}' nao é uma vogal.");
+        break;
+}
+//  Operador Ternario
+int idade = 18;
+string mensagem = idade >= 18 ? "Maior de idade" : "Menor de idade";
+Console.WriteLine(mensagem);
+

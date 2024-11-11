@@ -28,4 +28,11 @@ string? tpRetExerc = Console.ReadLine();
             num2++;
         } while (num2 < 10) ; 
     }
-
+// Estrutura de Repeticao for
+    else if (tpRetExerc == "3")
+    {
+        for(int i=0;i<=10;i++)
+        {
+            Console.WriteLine($"Valor de i: {i}");
+        }
+    }

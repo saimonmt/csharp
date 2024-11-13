@@ -1,0 +1,14 @@
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\obj\Debug\net7.0\estrutura-dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\obj\Debug\net7.0\estrutura-dados.AssemblyInfoInputs.cache
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\obj\Debug\net7.0\estrutura-dados.AssemblyInfo.cs
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\obj\Debug\net7.0\estrutura-dados.csproj.CoreCompileInputs.cache
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\bin\Debug\net7.0\estrutura-dados.exe
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\bin\Debug\net7.0\estrutura-dados.deps.json
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\bin\Debug\net7.0\estrutura-dados.runtimeconfig.json
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\bin\Debug\net7.0\estrutura-dados.dll
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\bin\Debug\net7.0\estrutura-dados.pdb
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\obj\Debug\net7.0\estrutura-dados.dll
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\obj\Debug\net7.0\refint\estrutura-dados.dll
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\obj\Debug\net7.0\estrutura-dados.pdb
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\obj\Debug\net7.0\estrutura-dados.genruntimeconfig.cache
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-dados\obj\Debug\net7.0\ref\estrutura-dados.dll

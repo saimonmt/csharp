@@ -77,6 +77,7 @@ string? tpRetExerc = Console.ReadLine();
                     numusu = int.Parse(cRet);
                 }
         }
+        Console.WriteLine("Acertou o Valor");
         
     }
     // Exerc 1
@@ -112,34 +113,59 @@ string? tpRetExerc = Console.ReadLine();
     //  Exerc 3
     else if (tpRetExerc == "8")
     {
-        Console.WriteLine("Digite uma palavra para contar as vogais");
-        string? cRet2 = Console.ReadLine();
-        string letraMinuscula = cRet2.ToLower();
-        int num5 = letraMinuscula.Length;
-        int numVog = 0;
-        int numConsoante = 0;
-        string? cQuebra = "";
-        for(int i=1;i<=num5;i++)
-        {
-            cQuebra = letraMinuscula
-            switch (letraMinuscula)
-            {
-            case "a":
-            case "e":
-            case "i":
-            case "o":
-            case "u":
-                //Console.WriteLine($"A letra '{letraMinuscula}' é uma vogal.");
-                numVog++;
-                break;
-            default:
-                //Console.WriteLine($"A letra '{letraMinuscula}' nao é uma vogal.");
-                numConsoante++;
-                break;
-            }
+        // Console.WriteLine("Digite uma palavra para contar as vogais");
+        // string? cRet2 = Console.ReadLine();
+        // string letraMinuscula = cRet2.ToLower();
+        // int num5 = letraMinuscula.Length;
+        // int numVog = 0;
+        // int numConsoante = 0;
+        // string? cQuebra = "";
+        // for(int i=1;i<=num5;i++)
+        // {
+        //     cQuebra = letraMinuscula
+        //     switch (letraMinuscula)
+        //     {
+        //     case "a":
+        //     case "e":
+        //     case "i":
+        //     case "o":
+        //     case "u":
+        //         //Console.WriteLine($"A letra '{letraMinuscula}' é uma vogal.");
+        //         numVog++;
+        //         break;
+        //     default:
+        //         //Console.WriteLine($"A letra '{letraMinuscula}' nao é uma vogal.");
+        //         numConsoante++;
+        //         break;
+        //     }
             
+        // }
+        // Console.WriteLine($"O numero de vogal é: {numVog}");
+        // Console.WriteLine($"O numero de consoante é: {numConsoante}");
+        Console.WriteLine("Digite uma palavra para contar as vogais");
+        string? cRet2 = Console.ReadLine().ToLower();
+        int vogal = 0;
+        foreach(char letra in cRet2)
+        {
+            if("aeiou".Contains(letra))
+            {
+                vogal++;
+            }
         }
-        Console.WriteLine($"O numero de vogal é: {numVog}");
-        Console.WriteLine($"O numero de consoante é: {numConsoante}");
-
+        Console.WriteLine(vogal);
+    }
+    //  Exerc 4
+    else if (tpRetExerc == "9")
+    {
+        Console.WriteLine("Digite uma palavra ou frase: ");
+        string? cRet3 = Console.ReadLine().ToLower().Replace(" ", "");
+        string reverso = new string(cRet3.Reverse().ToArray());
+        if(cRet3 == reverso)
+        {
+            Console.WriteLine("É um Palindromo!");
+        }
+        else
+        {
+            Console.WriteLine("Não é um Palindromo!");
+        }
     }

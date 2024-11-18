@@ -165,12 +165,15 @@ Console.WriteLine(exerc4.Contains("Banana") ? "Banana esta no conjunto":"Banana 
 // 5. Crie uma lista vazia de numeros inteiros List<int> numeros = new List<int>();. Em seguida, adicione os numeros de 1 a 5 na lista
 // e exiba os elementos no console
 List<int> exerc5 = new List<int>();
-exerc5.Add(1);
-exerc5.Add(2);
-exerc5.Add(3);
-exerc5.Add(4);
-exerc5.Add(5);
-//Exibindo a lista inicial
+// exerc5.Add(1);
+// exerc5.Add(2);
+// exerc5.Add(3);
+// exerc5.Add(4);
+// exerc5.Add(5);
+for(int i = 1; i <= 5;i++)
+ {   
+     exerc5.Add(i);
+ }
 Console.WriteLine("Exercicio 5 - Itens na lista:");
 // for(int i = 0; i < exerc5.Count;i++)
 // {   

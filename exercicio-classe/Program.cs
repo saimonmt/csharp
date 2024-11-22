@@ -1,6 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
+//C# Extensions
+//v1.7.3
+//JosKreativ
+
 using System;
 
 using classes.Modelo;
